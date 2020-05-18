@@ -29,9 +29,9 @@ std::string generateProgram(AbstractMethod* factory) {
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    AbstractCplus p;
-    AbstractSharp s;
-    AbstractJava j;
+    FactoryCplus p;
+    FactorySharp s;
+    FactoryJava j;
     cout <<"C++:\n" << generateProgram(&p) << endl;
     cout <<"C#:\n" << generateProgram(&s) << endl;
     cout <<"JAVA:\n" << generateProgram(&j) << endl;
