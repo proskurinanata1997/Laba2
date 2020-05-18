@@ -6,7 +6,7 @@
 #include "sharpprintunit.h"
 using Flags = unsigned int;
 
-class AbstractSharp : public AbstractMethod
+class FactorySharp : public AbstractMethod
 {
 public:
     std::shared_ptr<AbstractClassUnit> createClassUnit(const std::string& name, Flags modifier = 0);
