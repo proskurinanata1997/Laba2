@@ -1,7 +1,7 @@
 #ifndef JAVAABSTRACT_H
 #define JAVAABSTRACT_H
 #include "abstractMethod.h"
-#include "javaCassUnit.h"
+#include "javaClassUnit.h"
 #include "javamethodunit.h"
 #include "javaprintunit.h"
 using Flags = unsigned int;
