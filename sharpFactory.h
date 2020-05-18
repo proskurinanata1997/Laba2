@@ -1,7 +1,7 @@
 #ifndef SHARPABSTRACT_H
 #define SHARPABSTRACT_H
 #include "abstractMethod.h"
-#include "sharpCassUnit.h"
+#include "sharpClassUnit.h"
 #include "sharpmethodunit.h"
 #include "sharpprintunit.h"
 using Flags = unsigned int;
