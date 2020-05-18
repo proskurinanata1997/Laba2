@@ -6,7 +6,7 @@
 #include "classUnit.h"
 using Flags = unsigned int;
 
-class AbstractCplus : public AbstractMethod
+class FactoryCplus : public AbstractMethod
 {
 public:
     std::shared_ptr<AbstractClassUnit> createClassUnit(const std::string& name, Flags modifier = 0);
