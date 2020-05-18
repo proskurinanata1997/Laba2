@@ -1,4 +1,4 @@
-#include "javaCassUnit.h"
+#include "javaClassUnit.h"
 
 std::string JavaClassUnit::compile(unsigned int level, bool firstTab) const{
     std::string result = (firstTab?generateShift(level):"");
