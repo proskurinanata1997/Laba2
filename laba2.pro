@@ -15,17 +15,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        abstractCPP.cpp \
         abstractClassUnit.cpp \
         abstractmethodunit.cpp \
         classUnit.cpp \
-        javaAbstract.cpp \
-        javaCassUnit.cpp \
+        cplusFactory.cpp \
+        javaClassUnit.cpp \
+        javaFactory.cpp \
         javamethodunit.cpp \
         main.cpp \
         methodunit.cpp \
-        sharpAbstract.cpp \
-        sharpCassUnit.cpp \
+        sharpClassUnit.cpp \
+        sharpFactory.cpp \
         sharpmethodunit.cpp
 
 # Default rules for deployment.
@@ -34,20 +34,20 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    abstractCPP.h \
     abstractClassUnit.h \
     abstractMethod.h \
     abstractmethodunit.h \
     abstractprintunit.h \
     classUnit.h \
-    javaAbstract.h \
-    javaCassUnit.h \
+    cplusFactory.h \
+    javaClassUnit.h \
+    javaFactory.h \
     javamethodunit.h \
     javaprintunit.h \
     methodunit.h \
     printoperatorunit.h \
-    sharpAbstract.h \
-    sharpCassUnit.h \
+    sharpClassUnit.h \
+    sharpFactory.h \
     sharpmethodunit.h \
     sharpprintunit.h \
     unit.h

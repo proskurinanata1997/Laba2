@@ -1,7 +1,7 @@
 #include <QCoreApplication>
-#include <abstractCPP.h>
-#include <sharpAbstract.h>
-#include <javaAbstract.h>
+#include <cplusFactory.h>
+#include <sharpFactory.h>
+#include <javaFactory.h>
 #include <iostream>
 using namespace std;
 
