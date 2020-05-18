@@ -6,7 +6,7 @@
 #include "javaprintunit.h"
 using Flags = unsigned int;
 
-class AbstractJava : public AbstractMethod
+class FactoryJava : public AbstractMethod
 {
 public:
     std::shared_ptr<AbstractClassUnit> createClassUnit(const std::string& name, Flags modifier = 0);
